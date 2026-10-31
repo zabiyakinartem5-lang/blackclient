@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.legit.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraInvoker",
+    "CameraMixin",
+    "ChatHudMixin",
+    "EntityMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "SimpleOptionMixin",
+    "WorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
